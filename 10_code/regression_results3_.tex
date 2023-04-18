@@ -1,0 +1,47 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}           & Violent\_Crime\_Rate & \textbf{  R-squared:         }   &      0.1975      \\
+\textbf{Estimator:}               &       PanelOLS       & \textbf{  R-squared (Between):}  &     -0.0129      \\
+\textbf{No. Observations:}        &         552          & \textbf{  R-squared (Within):}   &      0.0959      \\
+\textbf{Date:}                    &   Tue, Apr 18 2023   & \textbf{  R-squared (Overall):}  &     -0.0034      \\
+\textbf{Time:}                    &       18:15:51       & \textbf{  Log-likelihood     }   &      3301.0      \\
+\textbf{Cov. Estimator:}          &      Clustered       & \textbf{                     }   &                  \\
+\textbf{}                         &                      & \textbf{  F-statistic:       }   &      10.829      \\
+\textbf{Entities:}                &          46          & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Avg Obs:}                 &        12.000        & \textbf{  Distribution:      }   &    F(11,484)     \\
+\textbf{Min Obs:}                 &        12.000        & \textbf{                     }   &                  \\
+\textbf{Max Obs:}                 &        12.000        & \textbf{  F-statistic (robust):} &      5.0778      \\
+\textbf{}                         &                      & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Time periods:}            &          12          & \textbf{  Distribution:      }   &    F(11,484)     \\
+\textbf{Avg Obs:}                 &        46.000        & \textbf{                     }   &                  \\
+\textbf{Min Obs:}                 &        46.000        & \textbf{                     }   &                  \\
+\textbf{Max Obs:}                 &        46.000        & \textbf{                     }   &                  \\
+\textbf{}                         &                      & \textbf{                     }   &                  \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                  & \textbf{Parameter} & \textbf{Std. Err.} & \textbf{T-stat} & \textbf{P-value} & \textbf{Lower CI} & \textbf{Upper CI}  \\
+\midrule
+\textbf{Intercept}                &       0.0297       &       0.0381       &      0.7790     &      0.4364      &      -0.0452      &       0.1046       \\
+\textbf{adults\_19\_25}           &      -0.0261       &       0.0438       &     -0.5951     &      0.5521      &      -0.1122      &       0.0600       \\
+\textbf{adults\_26\_34}           &      -0.0472       &       0.0350       &     -1.3486     &      0.1781      &      -0.1159      &       0.0216       \\
+\textbf{adults\_35\_54}           &      -0.0335       &       0.0409       &     -0.8193     &      0.4130      &      -0.1138      &       0.0468       \\
+\textbf{adults\_55\_plus}         &      -0.0125       &       0.0398       &     -0.3139     &      0.7538      &      -0.0907      &       0.0657       \\
+\textbf{children}                 &       0.0251       &       0.0448       &      0.5605     &      0.5754      &      -0.0630      &       0.1133       \\
+\textbf{gdp\_per\_capita}         &       0.0114       &       0.0290       &      0.3926     &      0.6948      &      -0.0456      &       0.0684       \\
+\textbf{gini}                     &      -0.0223       &       0.0080       &     -2.7980     &      0.0053      &      -0.0380      &      -0.0066       \\
+\textbf{homelessness}             &     1.352e-08      &     1.003e-08      &      1.3481     &      0.1782      &     -6.186e-09    &     3.323e-08      \\
+\textbf{international\_migration} &     -7.298e-09     &     4.898e-09      &     -1.4901     &      0.1369      &     -1.692e-08    &     2.326e-09      \\
+\textbf{unemployment\_rate}       &       0.0097       &       0.0083       &      1.1702     &      0.2425      &      -0.0066      &       0.0261       \\
+\textbf{with\_death\_penalty}     &       0.0012       &       0.0003       &      4.4888     &      0.0000      &       0.0006      &       0.0017       \\
+\bottomrule
+\end{tabular}
+%\caption{PanelOLS Estimation Summary}
+\end{center}
+
+F-test for Poolability: 104.07 \newline
+ P-value: 0.0000 \newline
+ Distribution: F(56,484) \newline
+  \newline
+ Included effects: Entity, Time
